@@ -38,7 +38,7 @@ namespace InventoryManagmentSyetemV2
 
         public void EditProduct(string name)
         {
-           Product productToEdit = products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            Product productToEdit = products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
             if (productToEdit != null)
             {
                 Console.WriteLine("Enter new name, price, and quantity for the product:");
@@ -71,5 +71,18 @@ namespace InventoryManagmentSyetemV2
                 Console.WriteLine("Product not found.");
             }
         }
+        public void SearchProduct(string name)
+        {
+            Product product = products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            if (product != null)
+            {
+                Console.WriteLine(product);
+            }
+            else
+            {
+                Console.WriteLine("Product not found.");
+            }
+        }
     }
+
 }

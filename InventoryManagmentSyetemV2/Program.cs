@@ -9,7 +9,7 @@
 
             do
             {
-                Console.WriteLine("\nPlease Enter what you need to do:\n 1. Add a product. \n 2. View all products. \n 3. Edit a product. \n 4. Delete a product");
+                Console.WriteLine("\nPlease Enter what you need to do:\n 1. Add a product. \n 2. View all products. \n 3. Edit a product. \n 4. Delete a product. \n 5. Search for a product.");
                 Console.WriteLine("\nPlease Enter 0 To close");
                 option = Convert.ToInt32(Console.ReadLine());
 
@@ -22,7 +22,7 @@
                         Console.Write("Enter price: ");
 
                         var price = Convert.ToDouble(Console.ReadLine());
-                        
+
                         Console.Write("Enter quantity: ");
 
                         var quantity = Convert.ToInt32(Console.ReadLine());
@@ -42,10 +42,15 @@
                         string productNameToDelete = Console.ReadLine();
                         inventory.DeleteProduct(productNameToDelete);
                         break;
+                    case 5:
+                        Console.Write("Enter product name to search: ");
+                        string productNameToSearch = Console.ReadLine();
+                        inventory.SearchProduct(productNameToSearch);
+                        break;
                 }
 
             } while (option != 0);
-            
         }
+ 
     }
 }
