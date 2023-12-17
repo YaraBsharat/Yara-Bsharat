@@ -35,5 +35,27 @@ namespace InventoryManagmentSyetemV2
 
             }
         }
+
+        public void EditProduct(string name)
+        {
+           Product productToEdit = products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            if (productToEdit != null)
+            {
+                Console.WriteLine("Enter new name, price, and quantity for the product:");
+                var newName = Console.ReadLine();
+                var newPrice = Convert.ToDouble(Console.ReadLine());
+                var newQuantity = Convert.ToInt32(Console.ReadLine());
+
+                productToEdit.Name = newName;
+                productToEdit.Price = newPrice;
+                productToEdit.Quantity = newQuantity;
+
+                Console.WriteLine("Product updated.");
+            }
+            else
+            {
+                Console.WriteLine("Product not found.");
+            }
+        }
     }
 }
