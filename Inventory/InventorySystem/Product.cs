@@ -1,4 +1,4 @@
-﻿namespace Inventory
+﻿namespace InventorySystem
 {
     internal class Product
     {

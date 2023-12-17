@@ -1,4 +1,4 @@
-﻿namespace Inventory
+﻿namespace InventorySystem
 {
     class Program
     {
@@ -9,7 +9,13 @@
 
             do
             {
-                Console.WriteLine("\nPlease Enter what you need to do:\n 1. Add a product. \n 2. View all products. \n 3. Edit a product. \n 4. Delete a product. \n 5. Search for a product. \n 6. Exit.");
+                Console.WriteLine("\nPlease Enter what you need to do:\n" +
+                                  " 1. Add a product. " +
+                                  "\n 2. View all products. " +
+                                  "\n 3. Edit a product. " +
+                                  "\n 4. Delete a product. " +
+                                  "\n 5. Search for a product." +
+                                  " \n 6. Exit.");
                 option = Convert.ToInt32(Console.ReadLine());
 
                 switch (option)

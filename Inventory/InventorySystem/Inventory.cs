@@ -1,7 +1,7 @@
-﻿namespace Inventory
+namespace InventorySystem;
+
+public class Inventory
 {
-    internal class Inventory
-    {
         private List<Product> products;
 
         public Inventory()
@@ -78,5 +78,3 @@
             }
         }
     }
-
-}
