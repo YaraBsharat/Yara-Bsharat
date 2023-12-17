@@ -21,5 +21,19 @@ namespace InventoryManagmentSyetemV2
             products.Add(newProduct);
             Console.WriteLine("Product added to inventory.");
         }
+
+        public void ViewAllProducts()
+        {
+            if (products.Count == 0)
+            {
+                Console.WriteLine("Inventory is empty.");
+            }
+            else
+            {
+                Console.WriteLine("Inventory:");
+                products.ForEach(p => Console.WriteLine(p));
+
+            }
+        }
     }
 }
