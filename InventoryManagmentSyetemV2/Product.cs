@@ -18,5 +18,10 @@ namespace InventoryManagmentSyetemV2
             Price = price;
             Quantity = quantity;
         }
+
+        public override string ToString()
+        {
+            return $"Name: {Name}, Price: {Price:C}, Quantity: {Quantity}";
+        }
     }
 }
