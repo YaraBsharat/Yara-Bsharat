@@ -9,7 +9,7 @@
 
             do
             {
-                Console.WriteLine("\nPlease Enter what you need to do:\n 1. Add a product. \n 2. View all products \n 3. Edit a product");
+                Console.WriteLine("\nPlease Enter what you need to do:\n 1. Add a product. \n 2. View all products. \n 3. Edit a product. \n 4. Delete a product");
                 Console.WriteLine("\nPlease Enter 0 To close");
                 option = Convert.ToInt32(Console.ReadLine());
 
@@ -34,8 +34,13 @@
                         break;
                     case 3:
                         Console.Write("Enter product name to edit: ");
-                        string editName = Console.ReadLine();
-                        inventory.EditProduct(editName);
+                        string productNameToEdit = Console.ReadLine();
+                        inventory.EditProduct(productNameToEdit);
+                        break;
+                    case 4:
+                        Console.Write("Enter product name to delete: ");
+                        string productNameToDelete = Console.ReadLine();
+                        inventory.DeleteProduct(productNameToDelete);
                         break;
                 }
 

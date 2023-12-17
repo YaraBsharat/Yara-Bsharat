@@ -57,5 +57,19 @@ namespace InventoryManagmentSyetemV2
                 Console.WriteLine("Product not found.");
             }
         }
+
+        public void DeleteProduct(string name)
+        {
+            Product productToDelete = products.Find(p => p.Name.Equals(name, StringComparison.OrdinalIgnoreCase));
+            if (productToDelete != null)
+            {
+                products.Remove(productToDelete);
+                Console.WriteLine("Product deleted from inventory.");
+            }
+            else
+            {
+                Console.WriteLine("Product not found.");
+            }
+        }
     }
 }
