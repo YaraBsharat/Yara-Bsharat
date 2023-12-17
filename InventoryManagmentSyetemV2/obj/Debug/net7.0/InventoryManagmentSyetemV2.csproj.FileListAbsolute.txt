@@ -1,0 +1,14 @@
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\bin\Debug\net7.0\InventoryManagmentSyetemV2.exe
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\bin\Debug\net7.0\InventoryManagmentSyetemV2.deps.json
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\bin\Debug\net7.0\InventoryManagmentSyetemV2.runtimeconfig.json
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\bin\Debug\net7.0\InventoryManagmentSyetemV2.dll
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\bin\Debug\net7.0\InventoryManagmentSyetemV2.pdb
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.AssemblyInfoInputs.cache
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.AssemblyInfo.cs
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.csproj.CoreCompileInputs.cache
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.dll
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\refint\InventoryManagmentSyetemV2.dll
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.pdb
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\InventoryManagmentSyetemV2.genruntimeconfig.cache
+C:\Users\ThinPad\source\repos\Yara-Bsharat\InventoryManagmentSyetemV2\obj\Debug\net7.0\ref\InventoryManagmentSyetemV2.dll
