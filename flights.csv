@@ -1,0 +1,5 @@
+FlightId,DepartureCountry,DestinationCountry,DepartureDate,DepartureAirport,ArrivalAirport,EconomyPrice,BusinessPrice,FirstClassPrice
+1,USA,Canada,12/31/2023 00:00:00,JFK,YYZ,200,400,600
+2,Canada,Mexico,12/31/2023 00:00:00,YYZ,CUN,250,500,750
+3,China,Jaban,12/31/2023 00:00:00,PEK,TNH,250,500,750
+4,USA,Jordan,12/31/2023 00:00:00,JFK,QAIA,300,550,800
